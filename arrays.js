@@ -4,6 +4,10 @@ console.log(myArray);
 const thirdElement = myArray.slice(2,3);
 console.log(thirdElement);
 
-words.splice(-2, 1, "fourth element");
+const fourthElement = myArray[3];
+console.log(fourthElement);
+
+myArray[3] = "fourth element";
+console.log(myArray);
 
 
